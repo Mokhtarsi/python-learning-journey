@@ -11,7 +11,7 @@ while True:
     password = input("Enter Your Password: ")
 
     if len(password) < 8 :
-        print("Your password is Too short. Must be at least 6 characters.")
+        print("Your password is Too short. Must be at least 8 characters.")
     elif len(password) > 20:
          print("Your password is too long. Must be 20 characters or less.")
     elif not any(char.isupper() for char in password):
@@ -27,4 +27,5 @@ while True:
           
     else:
         print("Strong Password accepted.")
+
         break
