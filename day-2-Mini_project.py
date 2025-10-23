@@ -1,4 +1,4 @@
-# --- Day 2 Project: AI bouncer - The Digital Bar Guard --- 
+# --- Day 2 Project:  bouncer - The Digital Bar Guard --- 
 # Date: 2025-10-22
 
 ## Asking the user for basic inforamtion 
@@ -48,4 +48,5 @@ Before you enter ,There are some rules you should follow if you want to inter in
 
 else:
     print(f"Hi! {Name},Sorry sweetheart - you're still a minor.")
+
     print(f"We can't let you in yet, come back whenn you're older ☺️")
